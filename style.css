@@ -1,0 +1,92 @@
+/*Colors and fonts*/
+body {
+background-color:#F9F8EB;
+color:#black;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 16px; 
+}
+h1,h2,h3 {
+	font-family: 'DM Serif Display', serif;;
+}
+h1 {
+	color: #155E63; 
+	font-size: 28px;
+	font-weight: 900;
+}
+h2 {
+	color:#76B39D;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color:#155E63;
+	font-weight: 700;
+}
+a:hover {
+	color: #76B39D;
+}
+ 
+
+/*Custom design with class*/
+.container {
+	width:  700px;
+	margin: 40px auto;
+}
+ 
+@media (max-width: 760px){
+	.container { 
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container { 
+		width: 400px;
+	}
+}
+
+.card-creme {
+	background-color: #FFEFD6;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-green {
+	background-color: #155E63 ; 
+	color : white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-green:hover {
+	background-color: #76B39D ;
+	color: white;
+}
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i {
+	font-size: 50px;
+	color: #155E63;
+}
+.list-horizontal i:hover {
+	color: #76B39D ; 
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
